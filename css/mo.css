@@ -1,0 +1,93 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#wrap{width:100%; height: 1000px;}
+@font-face{
+    font-family:sunshine;
+    src: url('../font/A little sunshine.ttf')
+}
+@font-face{
+    font-family:buddy;
+    src: url('../font/Bubblegum.ttf')
+}
+@font-face{
+    font-family:september;
+    src: url('../font/September Mornings.ttf')
+}
+#header{height: 50px; width: 100%; background-color: #2F2E2E; color:#fff; font-family:'sunshine'; font-size:20px; text-align: center; font-weight: 600; line-height:2.3; } 
+a{text-decoration: none; color: #2f2e2e;}
+#header_wrap{width: 100%; height: 700px; background-color: #f9db79;}
+#header_wrap>nav>ul{width: 500px; height: 50px; margin-left: 30px;}
+#header_wrap>nav>ul>li{list-style: none; float: left; margin-left: 30px; margin-top: 20px; font-family: sunshine; font-size:20px; font-weight: bolder;}
+#header_menu{position:fixed; z-index: 99;}
+#ice{margin-left: 760px; margin-top: 60px; position: relative;}
+#font{font-family: sunshine; font-weight: bolder; font-size:50px; color: white; position:absolute; margin-left: 780px; margin-top: -360px;}
+#ice_font{font-family:buddy; font-weight: bolder; font-size: 130px; color: white; position: absolute; margin-left:500px; margin-top:-280px;}
+.menu{width: 140px; height: 45px; border:2px solid #fff; text-align: center; line-height:1.4; margin-left: 830px; margin-top: -170px; position: absolute;}
+#mb{font-family: sunshine; font-weight: bolder; font-size:30px; color:#fff;}
+.menu:hover{background-color: #2F2E2E; border: #2F2E2E;}
+#icon>ul{width: 160px; height: 40px; margin-left: 1500px; margin-top:-680px; position: absolute; position:fixed; z-index: 999;}
+#icon>ul>li{list-style: none; float: left; margin-left: 8px;}
+#box_1{width: 100%; height: 599px;}
+#ice2{margin-left: -360px; height: 600px;}
+#box_1>h5{float: right; margin-right: 320px; margin-top: 110px;}
+#box_1>h6{float: right; margin-top:165px; margin-right: -170px;}
+#box_1>p{width:400px; float: right; margin-right: 240px; margin-top:-340px;}
+.menu2{width: 140px; height: 45px; border:2px solid #2F2E2E ; text-align: center; line-height:1.4; float: right; margin-right: 370px; margin-top:-150px;}
+#mb2{font-family: sunshine; font-weight: bolder; font-size:30px; color:#2F2E2E;}
+.menu2:hover{background-color:#2F2E2E; border:#2F2E2E;}
+#mb2:hover{color: #fff;}
+#box_2{width: 100%; height: 800px; background-image: url(../img/iceice.jpg); background-attachment: fixed; position: relative;}
+#enjoy{color:#fff; font-family: sunshine; font-weight: bolder; font-size:60px;}
+#box_2>h5{position:absolute; margin-top: 250px; margin-left: 840px;}
+#free{font-family:buddy; font-weight: bolder; color: #fff; font-size: 120px;}
+#box_2>h3{position: absolute; margin-top:340px; margin-left:430px;}
+.menu3{width: 140px; height: 45px; border:2px solid #fff ; text-align: center; line-height:1.4; float: right; margin-right: 370px; margin-top:-280px; margin-left: 830px; position: absolute}
+#mb3{font-family: sunshine; font-weight: bolder; font-size:30px; color:#fff;}
+.menu3:hover{background-color: #2F2E2E; border: #2F2E2E;}
+#mb3:hover{color: #fff;}
+#box_3{width: 100%; height:650px;}
+#back{float: right;}
+#box_3>h5{margin-left: 400px; margin-top:150px; position:absolute;}
+#box_3>h6{margin-left:410px; margin-top:200px; position: absolute;}
+#box_3>p{width:400px; margin-left: 300px; margin-top: 300px; position:absolute;}
+.read{width: 140px; height: 45px; border:2px solid #2F2E2E ; text-align: center; line-height:1.4; float: right; margin-right: 30px; margin-top:-200px; margin-left: 430px; position: absolute}
+#more{font-family: sunshine; font-weight: bolder; font-size:30px; color:#2F2E2E;}
+.read:hover{background-color:#2F2E2E;}
+#more:hover{color:#fff;}
+#box_4{width: 100%; height: 800px; background-image:url(../img/blue_ice.jpg); background-attachment: fixed; position:relative;}
+#cater{color:#fff; font-family: sunshine; font-weight: bolder; font-size:60px;}
+#box_4>h5{position:absolute;margin-left: 780px; margin-top:270px;}
+#event{font-family:buddy; font-weight: bolder; color: #fff; font-size: 120px;}
+#box_4>h3{position:absolute; margin-left: 680px; margin-top:360px;}
+.wish{width: 180px; height: 45px; border:2px solid #fff ; text-align: center; line-height:1.4; margin-top:-270px; margin-left: 870px; position:absolute;}
+#make{font-family: sunshine; font-weight: bolder; font-size:30px; color:#fff;}
+.wish:hover{background-color:#2F2E2E; border:#2F2E2E;}
+#make:hover{color:#fff;}
+#box_5{width: 100%; height: 650px;}
+#cookie{float: left; margin-left: -600px;}
+#box_5>h5{float: right; margin-top: 150px; margin-right:400px;}
+#box_5>h6{position:absolute; margin-left:1350px; margin-top:200px;}
+#box_5>p{float: right; width:400px; margin-top: 80px; margin-right: 270px;}
+.menu4{width: 140px; height: 45px; border:2px solid #2F2E2E ; text-align: center; line-height:1.4; position: absolute; margin-top: 440px; margin-left:1360px; margin-top: -160px;}
+#mb4{font-family: sunshine; font-weight: bolder; font-size:30px; color:#2F2E2E;}
+.menu4:hover{background-color:#2F2E2E;}
+#mb4:hover{color:#fff;}\
+
+#box_6{width: 100%; height: 700px; background-image:url(../img/%EC%A4%84%EB%AC%B4%EB%8A%AC.gif); background-size: 150%; background-attachment: fixed;}
+#iceice{margin-left:200px; margin-top: 90px;}
+#tap{margin-left:880px; margin-top: 40px; height: 100px;}
+#instagram{width:100%; height: 480px; background-color:#000; display: inline-block; font-size:0;}
+#instagram>img{margin-left: 4px}
+    
+#footer{width: 100%; height: 360px; background-color: #000;}
+.footer1{position: absolute; color:#fff; font-family:sunshine; font-size: 20px; margin-left: 500px; margin-top: 70px;}
+.footer1>li{list-style: none; }
+.footer2{position: absolute; color:#fff; font-family:sunshine; font-size: 20px;margin-left:700px; margin-top:70px;}
+.footer2>li{list-style: none;}
+.footer3>li{list-style: none; }
+.footer3{position: absolute; color:#fff; font-family:sunshine; font-size: 20px; margin-left: 900px; margin-top: 70px;}
+#gelato{position: absolute; color:#fff; font-family:sunshine; font-size:20px; margin-left: 500px; margin-top: 250px;}
+#list{position: absolute; color:#fff; font-family:sunshine; font-size:30px; margin-left: 1100px; margin-top:70px;}
+#input_box{width: 250px; height: 43px; border: none; font-family: sunshine; font-size: 24px; margin-left: 1100px; margin-top: 120px;}
+#button{width: 111px; height: 43px; position: absolute; margin-top: 120px; margin-left: 8px; background-color: #000; border: 2px solid #fff; color:#fff; font-family: sunshine; font-size: 20px;}
+.sns_icon>li{list-style: none; float: left; margin-left: 6px;}
+.sns_icon{margin-left: 1100px; margin-top: 40px;}
